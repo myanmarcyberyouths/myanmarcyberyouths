@@ -99,12 +99,7 @@ export default function HeroSection() {
                 </Dialog>
             </header>
 
-            <div className="relative isolate overflow-hidden pt-14">
-                <img
-                    src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
-                    alt=""
-                    className="absolute inset-0 -z-10 h-full w-full object-cover"
-                />
+            <div className="relative isolate overflow-hidden">
                 <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                     aria-hidden="true"
@@ -132,7 +127,7 @@ export default function HeroSection() {
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                             Innovative tech solutions for your business growth
                         </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-300">
+                        <p className="px-3 mt-6 text-lg leading-8 text-gray-300">
                             Myanmar Cyber Youths provides data-driven solutions to help businesses succeed online. Our
                             experienced team specializes in app and web development, ERP solutions, and optimization for
                             maximum impact. Contact us to learn how we can help you harness the power of data to achieve
