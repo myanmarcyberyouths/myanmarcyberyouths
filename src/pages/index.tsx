@@ -5,6 +5,7 @@ import FAQSection from "@/components/FAQSection";
 import NewLetter from "@/components/NewLetter";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
+import Testimonials from "@/components/Testimonials";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -13,6 +14,7 @@ export default function Home() {
         <main>
             <HeroSection/>
             <ClientLogos/>
+            <Testimonials/>
             <ContactSection/>
             <FAQSection/>
             <Footer/>
