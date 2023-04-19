@@ -45,7 +45,9 @@ export default function ContactSection() {
                         </div>
                         <h2 className="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Getting in touch with us is easy. Whether you prefer to call, email or use our live chat feature, we are always available to answer your questions, provide technical support, or discuss any issues or concerns you may have.
+                            Getting in touch with us is easy. Whether you prefer to call, email or use our live chat
+                            feature, we are always available to answer your questions, provide technical support, or
+                            discuss any issues or concerns you may have.
                         </p>
                         <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
                             <div className="flex gap-x-4">
@@ -162,8 +164,7 @@ export default function ContactSection() {
                         </div>
                         <div className="mt-8 flex justify-end">
                             <button
-                                type="submit"
-                                className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                                className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                             >
                                 Send message
                             </button>
