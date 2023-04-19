@@ -45,9 +45,7 @@ export default function ContactSection() {
                         </div>
                         <h2 className="text-3xl font-bold tracking-tight text-white">Get in touch</h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
-                            Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut
-                            tincidunt
-                            integer elementum id sem. Arcu sed malesuada et magna.
+                            Getting in touch with us is easy. Whether you prefer to call, email or use our live chat feature, we are always available to answer your questions, provide technical support, or discuss any issues or concerns you may have.
                         </p>
                         <dl className="mt-10 space-y-4 text-base leading-7 text-gray-300">
                             <div className="flex gap-x-4">
