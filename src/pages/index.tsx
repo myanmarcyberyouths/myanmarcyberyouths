@@ -6,6 +6,7 @@ import NewLetter from "@/components/NewLetter";
 import Footer from "@/components/Footer";
 import ClientLogos from "@/components/ClientLogos";
 import Testimonials from "@/components/Testimonials";
+import FeatureSection from "@/components/FeaturesSection";
 
 const inter = Inter({ subsets: ["latin"] });
 
