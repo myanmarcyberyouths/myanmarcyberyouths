@@ -12,7 +12,6 @@ const tiers = [
     name: "Development",
     id: "development",
     href: "#",
-    price: { monthly: "$15", annually: "$144" },
     description:
       "Customizable and scalable web and software development for your needs",
     features: [
@@ -27,7 +26,6 @@ const tiers = [
     name: "Solutions",
     id: "tier-startup",
     href: "#",
-    price: { monthly: "$30", annually: "$288" },
     description: "Software that scale up your business rapidly",
     features: [
       "Ticket Management System",
@@ -42,7 +40,6 @@ const tiers = [
     name: "Consulting",
     id: "tier-enterprise",
     href: "#",
-    price: { monthly: "$48", annually: "$576" },
     description: "Dedicated consulting for your business",
     features: [
       "Architecture and design",
@@ -59,7 +56,7 @@ export default function ServicesSection() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
   return (
-    <div className="bg-gray-900 py-24 sm:py-32">
+    <div className="bg-gray-900 pt-24 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-400">

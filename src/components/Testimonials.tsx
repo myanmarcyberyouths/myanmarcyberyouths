@@ -65,7 +65,7 @@ const testimonials = [
   ],
 ];
 
-export default function Example() {
+export default function Testimonials() {
   return (
     <div className="relative isolate bg-white pb-32 pt-24 dark:bg-gray-900 sm:pt-24">
       <div
