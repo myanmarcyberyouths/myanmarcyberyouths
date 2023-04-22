@@ -5,8 +5,6 @@ import Footer from "@/components/Footer";
 import Testimonials from "@/components/Testimonials";
 import ServicesSection from "@/components/ServicesSection";
 
-// const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
     <main>

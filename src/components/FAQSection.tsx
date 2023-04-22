@@ -31,7 +31,7 @@ const faqs = [
 
 export default function FAQSection() {
   return (
-    <div className="relative isolate bg-gray-900">
+    <div id="faqs" className="relative isolate bg-gray-900">
       <div
         className="absolute inset-x-0 top-0 -z-10 flex transform-gpu overflow-hidden pt-32 opacity-25 blur-3xl sm:pt-40 xl:justify-end"
         aria-hidden="true"

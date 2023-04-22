@@ -56,7 +56,9 @@ export default function ServicesSection() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
   return (
-    <div className="bg-gray-900 pt-24 sm:py-24">
+    <div
+        id="services"
+        className="bg-gray-900 pt-24 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-base font-semibold leading-7 text-indigo-400 dark:text-gray-100">
