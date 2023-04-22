@@ -59,10 +59,10 @@ export default function ServicesSection() {
     <div className="bg-gray-900 pt-24 sm:py-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-400">
+          <h2 className="text-base font-semibold leading-7 text-indigo-400 dark:text-gray-100">
             Services
           </h2>
-          <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <p className="mt-2 text-4xl font-bold tracking-tight text-gray-100 sm:text-5xl">
             Business services to fit all sizes
           </p>
         </div>
